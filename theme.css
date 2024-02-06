@@ -3,8 +3,8 @@ body {
   --text-muted: var(--color-base-30);
   --text-faint: var(--color-base-40);
   --text-on-accent: var(--color-base-60);
-  --background-modifier-form-field: var(--color-base-50);
   --modal-border-color: var(--color-base-70, var(--background-modifier-border-focus));
+  --prompt-border-color: var(--color-base-70, var(--background-modifier-border-focus));
 
   --radius-s: 3px;
   --radius-m: 6px;
@@ -82,6 +82,7 @@ body {
   --background-primary-alt: var(--color-base-70);
   --background-secondary: var(--color-base-60);
   --background-secondary-alt: var(--color-base-70);
+  --background-modifier-form-field: var(--color-base-50);
   --text-accent: var(--color-accent);
   --text-accent-hover: var(--color-accent-2);
   --background-modifier-border: var(--color-base-70);

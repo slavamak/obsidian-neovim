@@ -18,7 +18,7 @@
   ],
   "type": "module",
   "scripts": {
-    "release": "bumpp --execute \"node version-bump.js && git add manifest.json\""
+    "release": "bumpp package.json manifest.json"
   },
   "devDependencies": {
     "bumpp": "^9.3.0"

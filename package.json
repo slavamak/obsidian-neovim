@@ -1,7 +1,26 @@
 {
   "name": "obsidian-neovim",
   "version": "0.0.0",
+  "description": "Default Neovim color scheme for Obsidian",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavamak/obsidian-neovim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/slavamak/obsidian-neovim/issues"
+  },
+  "homepage": "https://github.com/slavamak/obsidian-neovim#readme",
+  "author": "Slava Maksimov <hello@slavamak.com>",
+  "keywords": [
+    "obsidian-theme",
+    "neovim"
+  ],
+  "type": "module",
   "scripts": {
-    "version": "node version-bump.mjs && git add manifest.json versions.json"
+    "release": "bumpp --execute \"node version-bump.js\""
+  },
+  "devDependencies": {
+    "bumpp": "^9.3.0"
   }
 }

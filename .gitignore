@@ -1,5 +1,5 @@
 # vscode
-.vscode 
+.vscode
 
 # Intellij
 *.iml
@@ -7,6 +7,7 @@
 
 # npm
 node_modules
+pnpm-lock.yaml
 
 # Exclude sourcemaps
 *.map
